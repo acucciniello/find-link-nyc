@@ -1,0 +1,25 @@
+{
+  "name": "find-link-nyc",
+  "version": "1.0.0",
+  "description": "An Amazon Echo Skill to find a nearby linkNYC kiosk",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acucciniello/find-link-nyc.git"
+  },
+  "keywords": [
+    "linkNYC"
+  ],
+  "author": "Antonio Cucciniello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acucciniello/find-link-nyc/issues"
+  },
+  "homepage": "https://github.com/acucciniello/find-link-nyc#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}

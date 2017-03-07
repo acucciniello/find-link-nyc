@@ -38,3 +38,6 @@ jspm_packages
 
 # AWS lambda zip file
 Archive.zip
+
+# Dotenv environment variables
+.env
