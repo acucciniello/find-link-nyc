@@ -18,11 +18,12 @@ function getCurrentLocation (address, result, callback) {
   geocoder.geocode(address, function (err, res) {
     if (err) {
       result = err
-      callback(result)
-      return
+      return callback(result)
+    } else if (res === undefined || res.length === 0) {
+      result = res
+      return callback(result)
     }
     result = res
-    callback(null, result)
-    return
+    return callback(null, result)
   })
 }

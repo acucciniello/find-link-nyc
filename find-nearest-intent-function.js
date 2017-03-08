@@ -9,10 +9,11 @@ module.exports = FindNearestFunction
 
 function FindNearestFunction (intent, session, response) {
   var address = intent.slots.address.value
-  var resultCoordinates = []
+  var resultCoordinates
   getCurrentLocation(address, resultCoordinates, function (err, res) {
     if (err) {
-      response.tell(err)
+      var errorWrongLocation = 'Please try again I could not understand the address'
+      response.tell(errorWrongLocation)
       return
     }
     var latitude = res[0].latitude
