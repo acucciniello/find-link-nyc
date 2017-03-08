@@ -1,4 +1,6 @@
 var getCurrentLocation = require('./get-current-location.js')
+var getLinkData = require('./get-link-data.js')
+//  var calcDistance = require('./calc-distance.js')
 
 module.exports = FindNearestFunction
 
@@ -16,10 +18,39 @@ function FindNearestFunction (intent, session, response) {
       response.tell(errorWrongLocation)
       return
     }
-    var latitude = res[0].latitude
-    // var longitude = res[0].longitude
-
-    response.tell('The latitude is: ' + latitude)
-    return
+    var linkData
+    var coordinates = {
+      'latitude': 0,
+      'longitude': 0
+    }
+    /* var nearestKiosk = {
+      'prevDistance': null,
+      'streetAddress': ''
+    } */
+    coordinates.latitude = res[0].latitude
+    coordinates.longitude = res[0].longitude
+    getLinkData(linkData, function (err, res) {
+      if (err) {
+        var failedDataGet = 'We failed to pull the data from the LinkNYC Dataset'
+        response.tell(failedDataGet)
+        return
+      }
+      response.tell('we have the result')
+      return
+      /*
+      var point = {
+        'latitude': 0,
+        'longitude': 0
+      }
+      res.forEach(function (currentValue, index, array) {
+        var streetAddress = array[index].street_address
+        point.latitude = array[index].latitude
+        point.longitude = array[index].longitude
+        calcDistance(coordinates, point, streetAddress, nearestKiosk)
+      })
+      response.tell('The nearest link NYC kiosk is at: ' + nearestKiosk.streetAddress)
+      return
+      */
+    })
   })
 }
