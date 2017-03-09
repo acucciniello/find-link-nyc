@@ -16,7 +16,7 @@ var FindLinkService = function () {
 FindLinkService.prototype = Object.create(AlexaSkill.prototype)
 
 // this will be invoked when the user first launches or opens the skill with its invocation name
-// this is triggered when said "Alexa, ask Google Drive"
+// this is triggered when said "Alexa, ask link NYC"
 FindLinkService.prototype.eventHandlers.onLaunch = LaunchIntentFunction
 
 // How Alexa knows to handle all the different functions
