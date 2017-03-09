@@ -10,7 +10,7 @@ If you would like to donate to help keep this skill updated and improving please
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=8U849S663ZGTN&lc=US&item_name=Edit%20Docs%20Amazon%20Echo%20Skill&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
-##Getting Started
+## Getting Started
 1. Must have an Amazon Echo to use this skill.  
 2. Open the Amazon Echo companion mobile application.
 3. Click on the Top Left Button to Open the Menu
@@ -19,9 +19,9 @@ If you would like to donate to help keep this skill updated and improving please
 6. Click Enable Skill
 7. Say "Alexa, launch link NYC"
 
-##Usage
+## Usage
 
-###Find Nearest
+### Find Nearest
 
 Sample phrase to find out the nearest Link NYC kiosk:
 
