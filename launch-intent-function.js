@@ -6,7 +6,7 @@ module.exports = LaunchIntentFunction
 // param (out): request: allows the user to change the response by Alexa
 
 function LaunchIntentFunction (intent, session, response) {
-  var output = 'Welcome to Find LinkNYC.  You can find out where the nearest LinkNYC kiosk is based off your current location.  To start using the skill, say Alexa, ask LinkNYC to give me the nearest link kiosk to your address. '
+  var output = 'Welcome to Find LinkNYC.  You can find out where the nearest LinkNYC kiosk is based off your current location.  To start using the skill, say Alexa, ask LinkNYC to give me the nearest link kiosk by your address. '
   response.ask(output)
   return
 }

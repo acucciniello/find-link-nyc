@@ -31,8 +31,8 @@ function FindNearestFunction (intent, session, response) {
     coordinates.longitude = res[0].longitude
     getLinkData(linkData, function (err, res) {
       if (err) {
-        var failedDataGet = 'We failed to pull the data from the LinkNYC Dataset'
-        response.tell(failedDataGet)
+        var failedDataGet = 'Here is the message: '
+        response.tell(failedDataGet + err)
         return
       }
       response.tell('we have the result')
