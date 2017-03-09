@@ -2,6 +2,8 @@
 ================
 An Amazon Echo Skill that helps you find a LinkNYC kiosk
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ShAPsT9I_oI" frameborder="0" allowfullscreen></iframe>
+
 ## Donate
 
 If you would like to donate to help keep this skill updated and improving please donate here:
