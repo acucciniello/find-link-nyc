@@ -7,7 +7,7 @@ module.exports = HelpIntentFunction
 
 function HelpIntentFunction (intent, session, response) {
   var begin = 'This is a skill that allows you to find a link NYC kiosk. '
-  var useFindNearest = 'In order to find your nearest link NYC, please say Alexa, ask linkNYC to give me the nearest link kiosk. '
+  var useFindNearest = 'In order to find your nearest link NYC, please say Alexa, ask find link to give me the nearest link kiosk. '
   var question = 'What would you like to do ?'
   var output = begin + useFindNearest + question
   response.ask(output)
