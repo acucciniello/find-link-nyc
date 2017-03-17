@@ -1,6 +1,5 @@
 # find-link-nyc [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard     )
 
-================
 
 An Amazon Echo Skill that helps you find a LinkNYC kiosk
 
