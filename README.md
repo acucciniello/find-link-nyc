@@ -1,8 +1,12 @@
 # find-link-nyc [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard     )
+
 ================
+
 An Amazon Echo Skill that helps you find a LinkNYC kiosk
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ShAPsT9I_oI" frameborder="0" allowfullscreen></iframe>
+[View on Amazon's Store](https://www.amazon.com/dp/B06XH5N5SQ/ref=sr_1_3?ie=UTF8&qid=1489761864&sr=8-3&keywords=find+link)
+
+[View on Youtube](https://www.youtube.com/embed/ShAPsT9I_oI)
 
 ## Donate
 
